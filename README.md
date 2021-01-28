@@ -1,2 +1,3 @@
 # design-patterns
-Containing exemples about design patterns I already used.
+
+Containing examples about design patterns I already used.
