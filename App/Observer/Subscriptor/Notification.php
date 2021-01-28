@@ -1,4 +1,4 @@
-<?php namespace App\Observer\Helper;
+<?php namespace App\Observer\Subscriptor;
 
 class Notification implements \SplObserver
 {

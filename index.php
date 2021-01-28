@@ -5,7 +5,7 @@ require_once('vendor/autoload.php');
 if (sizeof($argv) <= 1 || !in_array($argv[1], App\DesignPattern::LIST)) {
     echo "Please use one of the following pattern as argument: \n";
     foreach (App\DesignPattern::LIST as $pattern) {
-        echo "$pattern \n";
+        echo "- $pattern \n";
     }
     return;
 }
