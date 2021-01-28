@@ -1,6 +1,5 @@
 <?php
 
-require_once('vendor/autoload.php'); 
 use App\Factory\Poster;
 
 $message = 'Hello world';
