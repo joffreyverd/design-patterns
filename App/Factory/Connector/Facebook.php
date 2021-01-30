@@ -1,8 +1,8 @@
 <?php namespace App\Factory\Connector;
 
-use App\Factory\Connector\Interface;
+use App\Factory\Connector\Interfaces;
 
-class Facebook implements Interface\ISocialNetwork
+class Facebook implements Interfaces\ISocialNetwork
 {
     private $login, $password;
 

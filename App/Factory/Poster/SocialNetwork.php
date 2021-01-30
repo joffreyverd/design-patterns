@@ -4,7 +4,7 @@ use App\Factory\Connector;
 
 abstract class SocialNetwork
 {
-    abstract public function getSocialNetwork(): Connector\Interface\ISocialNetwork;
+    abstract public function getSocialNetwork(): Connector\Interfaces\ISocialNetwork;
 
     public function post($content): void
     {

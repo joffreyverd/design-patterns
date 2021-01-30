@@ -1,8 +1,8 @@
 <?php namespace App\Factory\Connector;
 
-use App\Factory\Connector\Interface;
+use App\Factory\Connector\Interfaces;
 
-class LinkedIn implements Interface\ISocialNetwork
+class LinkedIn implements Interfaces\ISocialNetwork
 {
     private $email, $password;
 

@@ -2,6 +2,16 @@
 
 Please find several examples of playable design patterns I already used.
 
+## Installation
+1. install PHP & composer
+```sh
+sudo apt install php -y && sudo apt install composer -y
+```
+2. dumps the autoloader
+```sh
+composer dump-autoload -o
+```
+
 ## Commands
 ```sh
 php index.php # get the list of testable patterns

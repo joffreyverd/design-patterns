@@ -14,7 +14,7 @@ class Facebook extends Poster\SocialNetwork
         $this->password = $password;
     }
 
-    public function getSocialNetwork(): Connector\Interface\ISocialNetwork
+    public function getSocialNetwork(): Connector\Interfaces\ISocialNetwork
     {
         return new Connector\Facebook($this->login, $this->password);
     }

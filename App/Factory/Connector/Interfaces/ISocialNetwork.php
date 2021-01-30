@@ -1,4 +1,4 @@
-<?php namespace App\Factory\Connector\Interface;
+<?php namespace App\Factory\Connector\Interfaces;
 
 interface ISocialNetwork
 {
